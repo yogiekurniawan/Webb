@@ -1,244 +1,384 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html lang='id' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-
+<html lang='id'>
 <head>
-    <link rel="apple-touch-icon" sizes="57x57" href="https://github.com/yogiekurniawan/Webb/apple-icon-57x57.png"/>
-	<link rel="apple-touch-icon" sizes="60x60" href="https://github.com/yogiekurniawan/Webb/apple-icon-60x60.png"/>
-	<link rel="apple-touch-icon" sizes="72x72" href="https://github.com/yogiekurniawan/Webb/apple-icon-72x72.png"/>
-	<link rel="apple-touch-icon" sizes="76x76" href="https://github.com/yogiekurniawan/Webb/apple-icon-76x76.png"/>
-	<link rel="apple-touch-icon" sizes="114x114" href="https://github.com/yogiekurniawan/Webb/apple-icon-114x114.png"/>
-	<link rel="apple-touch-icon" sizes="120x120" href="https://github.com/yogiekurniawan/Webb/apple-icon-120x120.png"/>
-	<link rel="apple-touch-icon" sizes="144x144" href="https://github.com/yogiekurniawan/Webb/apple-icon-144x144.png"/>
-	<link rel="apple-touch-icon" sizes="152x152" href="https://github.com/yogiekurniawan/Webb/apple-icon-152x152.png"/>
-	<link rel="apple-touch-icon" sizes="180x180" href="https://github.com/yogiekurniawan/Webb/apple-icon-180x180.png"/>
-	<link rel="icon" type="image/png" sizes="192x192"  href="https://github.com/yogiekurniawan/Webb/android-icon-192x192.png"/>
-	<link rel="icon" type="image/png" sizes="32x32" href="https://github.com/yogiekurniawan/Webb/favicon-32x32.png"/>
-	<link rel="icon" type="image/png" sizes="96x96" href="https://github.com/yogiekurniawan/Webb/favicon-96x96.png"/>
-	<link rel="icon" type="image/png" sizes="16x16" href="https://github.com/yogiekurniawan/Webb/favicon-16x16.png"/>
-	<link rel="manifest" href="https://github.com/yogiekurniawan/Webb/manifest.json"/>
-	<meta name="msapplication-TileColor" content="#ffffff"/>
-	<meta name="msapplication-TileImage" content="https://github.com/yogiekurniawan/Webb/ms-icon-144x144.png"/>
-	<meta name="theme-color" content="#ffffff"/>
+	<!-- Leverage browser caching -->
+	<include path="/assets/**.css" expiration="7d" />
+	<include path="/assets/**.js" expiration="7d" />
+	<include path="/assets/**.gif" expiration="3d" />
+	<include path="/assets/**.jpeg" expiration="3d" />
+	<include path="https://yogiekurniawan.github.io/Webb/**.jpg" expiration="3d" />
+	<include path="/assets/**.png" expiration="3d" />
 
-    <meta charset='utf-8'/>
+	<meta charset='utf-8'/>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
-    <meta content='' name='description'/>
-    <meta content='Yayu and Yogie' name='author'/>
 
-    <b:skin><![CDATA[
-    
-    /*
+	<title><data:blog.pageTitle/></title>
+	<meta expr:content='data:blog.metaDescription' name='description'/>
+    <meta content='Yogie Kurniawan' name='author'/>
+  	<link expr:href='data:blog.canonicalUrl' rel='canonical'/>
+  	<link href='http://www.yayuandyogie.com/?m=1' media='handheld' rel='alternate'/>
+	<meta expr:content='data:blog.metaDescription' name='title'/>
+    <meta content='Undangan, Wedding, Wedding Invitation, Prewedding, Pranikah, Pernikahan' name='keywords'/>
+	<!-- Facebook -->
+	<meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+    <meta content='website' property='og:type'/>
+    <meta expr:content='data:blog.pageTitle' property='og:title'/>
+    <meta expr:content='data:blog.metaDescription' property='og:description'/>
+    <meta content='https://yogiekurniawan.github.io/Webb/Landscape-2.JPG' property='og:image'/>
+	<meta content='380669562302859' property='fb:app_id'/>
+  	<!-- / Facebook-->
+	<!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" expr:content="data:blog.canonicalUrl"/>
+    <meta name="twitter:creator" content="@yogiekurniawan_"/>
+    <meta name="twitter:title" expr:content='data:blog.pageTitle'/>
+  	<meta name="twitter:description" expr:content='data:blog.metaDescription'/>
+  	<meta name="twitter:image" content="https://yogiekurniawan.github.io/Webb/Landscape-2.JPG"/>
+  	<!-- / Twitter -->
+	<meta content='KixefhFnaprTMoxZY-6F9arh1IXgV0_z2spTWxvX8UA' name='google-site-verification'/>
+ 
+    <!--
     //////////////////////////////////////////////////////////
     //                                                      //
     //  Blogger Template Style                              //
-    //  Name  : Template Wedding Invitation                 //
+    //  Name    : Template Wedding Invitation               //
+    //	Author  : Yogie Kurniawan                           //
+    //  Create  : 2017                                      //
     //                                                      //
     //////////////////////////////////////////////////////////
+    -->
     
-    ]]></b:skin>
-
-    <title>Yayu and Yogie Wedding Invitation</title>
-
-    <!-- Bootstrap Core CSS : SOURCE GITHUB -->
-    <link href='https://blackrockdigital.github.io/startbootstrap-creative/vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet'/>
-
-    <!-- Custom Fonts : SOURCE GITHUB -->
-    <link href='https://blackrockdigital.github.io/startbootstrap-creative/vendor/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+    <link href='https://plus.google.com/u/2/111777467696239534020' rel='author'/>
+    
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'/>
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+    <!-- Load Custom Font -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'/>
-  <link href='https://fonts.googleapis.com/css?family=Clicker+Script|Lobster|Pacifico' rel='stylesheet'/>
+    <link href='https://fonts.googleapis.com/css?family=Clicker+Script|Lobster|Pacifico' rel='stylesheet'/>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css' rel='stylesheet'/>
 
-    <!-- Plugin CSS : SOURCE GITHUB -->
-    <link href='https://blackrockdigital.github.io/startbootstrap-creative/vendor/magnific-popup/magnific-popup.css' rel='stylesheet'/>
+    <style>
+		
 
-    <!-- Theme CSS : SOURCE GITHUB 
-    <link href="https://rawgit.com/yogiekurniawan/WeddIn/master/creative.css" rel="stylesheet"></link>
-	-->
-<style>
-	/*!
+		/*!
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 html,
 body {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
+
 body {
-  font-family: Merriweather, Helvetica Neue, Arial, sans-serif;
+    font-family: &#39;Merriweather&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif;
 }
+
 hr {
-  border-color: #F05F40;
-  border-width: 3px;
-  max-width: 50px;
+    border-color: #d44646;
+    border-width: 3px;
+    max-width: 50px;
 }
+
 hr.light {
-  border-color: white;
+    border-color: white;
 }
+
 a {
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-  color: #F05F40;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: #d44646;
 }
+
 a:hover,
 a:focus {
-  color: #eb3812;
+    color: #eb3812;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: Lobster, cursive, Arial, sans-serif;
+    font-family: &#39;Pacifico&#39;, &#39;cursive&#39;,&#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif;
 }
+
+h3.list-event {
+  margin-bottom: 30px;
+}
+
 p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
+
 .bg-primary {
-  background-color: #F05F40;
+    background-color: #d44646;
 }
+
 .bg-dark {
-  background-color: #222222;
-  color: white;
+    background-color: #222222;
+    color: white;
 }
+
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
+
 section {
-  padding: 100px 0;
+    padding: 50px 0;
 }
+
+section.footer {
+    padding: 50px 0 0 0;
+}
+
 aside {
-  padding: 50px 0;
+    padding: 50px 0;
 }
+
 .no-padding {
-  padding: 0;
+    padding: 0;
 }
+
 .navbar-default {
-  background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
-  font-family: &#39;Clicker Script&#39;, cursive;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-}
-.navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
-  font-family: &#39;Clicker Script&#39;, cursive;
-  font-weight: 700;
-
-}
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
-}
-.navbar-default .navbar-header .navbar-toggle {
-  font-weight: 700;
-  font-size: 12px;
-  color: #222222;
-
-}
-.navbar-default .nav &gt; li &gt; a,
-.navbar-default .nav &gt; li &gt; a:focus {
-
-  font-weight: 700;
-  font-size: 13px;
-  color: #222222;
-}
-.navbar-default .nav &gt; li &gt; a:hover,
-.navbar-default .nav &gt; li &gt; a:focus:hover {
-  color: #F05F40;
-}
-.navbar-default .nav &gt; li.active &gt; a,
-.navbar-default .nav &gt; li.active &gt; a:focus {
-  color: #F05F40 !important;
-  background-color: transparent;
-}
-.navbar-default .nav &gt; li.active &gt; a:hover,
-.navbar-default .nav &gt; li.active &gt; a:focus:hover {
-  background-color: transparent;
-}
-@media (min-width: 768px) {
-  .navbar-default {
-    background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
-  }
-  .navbar-default .navbar-header .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  .navbar-default .navbar-header .navbar-brand:hover,
-  .navbar-default .navbar-header .navbar-brand:focus {
-    color: white;
-  }
-  .navbar-default .nav &gt; li &gt; a,
-  .navbar-default .nav &gt; li &gt; a:focus {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  .navbar-default .nav &gt; li &gt; a:hover,
-  .navbar-default .nav &gt; li &gt; a:focus:hover {
-    color: white;
-  }
-  .navbar-default.affix {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
-  }
-  .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
-    font-size: 14px;
-  }
-  .navbar-default.affix .navbar-header .navbar-brand:hover,
-  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    font-family: &#39;Pacifico&#39;, &#39;cursive&#39;,&#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: #d44646;
+    font-family: &#39;Clicker Script&#39;, cursive, Open Sans, Helvetica Neue, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;
-  }
-  .navbar-default.affix .nav &gt; li &gt; a,
-  .navbar-default.affix .nav &gt; li &gt; a:focus {
+}
+
+.navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
     color: #222222;
-  }
-  .navbar-default.affix .nav &gt; li &gt; a:hover,
-  .navbar-default.affix .nav &gt; li &gt; a:focus:hover {
-    color: #F05F40;
-  }
+    text-transform: uppercase;
 }
+
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+    font-size: 17px;
+    color: #222222;
+}
+
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+    color: #d44646;
+}
+
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+    color: #d44646 !important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+    background-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .navbar-default {
+        background-color: transparent;
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+    .navbar-default .navbar-header .navbar-brand {
+        /* color: rgba(255, 255, 255, 0.7); */
+    }
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: white;
+    }
+    .navbar-default .nav > li > a,
+    .navbar-default .nav > li > a:focus {
+        /* color: rgba(255, 255, 255, 0.7); */
+        color: white;
+    }
+    .navbar-default .nav > li > a:hover,
+    .navbar-default .nav > li > a:focus:hover {
+        color: white;
+    }
+    .navbar-default.affix {
+        background-color: white;
+        border-color: rgba(34, 34, 34, 0.05);
+    }
+    .navbar-default.affix .navbar-header .navbar-brand {
+        /* color: #F05F40; */
+        color: rgba(212, 70, 70, 1);
+        /* font-size: 14px; */
+    }
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #eb3812;
+    }
+    .navbar-default.affix .nav > li > a,
+    .navbar-default.affix .nav > li > a:focus {
+        color: #222222;
+    }
+    .navbar-default.affix .nav > li > a:hover,
+    .navbar-default.affix .nav > li > a:focus:hover {
+        color: #d44646;
+    }
+}
+
+.title_front {
+    font-weight: 800;
+    font-size: 18px;
+    color: #d44646;
+    padding: 0 0 20px 0;
+}
+
+.title {
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.title_date {
+    color: #d44646;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 0px 0 10px 0;
+}
+
+.title_under {
+    font-weight: 800;
+    font-size: 18px;
+    padding: 20px 0 0 0;
+}
+
+.title{
+    font-family: 'Clicker Script', cursive;
+}
+
+.title .and {
+	color: #d44646;
+}
+
+span.swirl_left {
+    display: inline-block;
+    background: url(https://yogiekurniawan.github.io/Webb/swirl_left.png) no-repeat left bottom;
+    padding: 0 0 0 100px;
+}
+
+span.swirl_right {
+    display: inline-block;
+    background: url(https://yogiekurniawan.github.io/Webb/swirl_right.png) no-repeat right bottom;
+    /* padding: 20px 100px 50px 0px; */
+    padding: 20px 120px 5px 20px;
+}
+
 header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url(&#39;https://lh3.googleusercontent.com/YWfDQJHWEzp1ux5uLk8vBinEVOpnAcfXoD1esjYcVpsfqkcV_mjlvW8efQnS4e1ilCemFaFQ0j2KLO5rB2G1ixSSrPOMkeRA_JeaCJzdG5FNqGBBE3O3tTTQAeVCfUGO6Hz7MUulyeZZ8zvdxCHgLWZBTpHfZJK3QHP5gAQE6OezZ-t-KnI8oId9JtVWmCy6dG6GwcW1MZ-8Qvj6RJGZ8rQSxKqf22V6gJBjPkPrKsmtadXX1VGEp_qABRk5-oloC2df_sa4ymbDEHYAeYyyqK0RtDUSMsCvGXnE_gEzxp1Y1VfUipVri3GpwbvGzDfbdSqsFRYtqrMhJnYpv5jAaYptHIhGT5-cV2qFAICrQEnBY4s5hNO0CK246DlwrIgbBwkSmKt8jFXzdy-m_6g_i4QwnP-HToHUY3HzCEbWLhpkqiquPkuykCIOOPd_KPf2kXMbfXUHajdrn7F2zbcL1XiszTv-vDKJCowMXHmh-8L4g5qBKnBH1jgFDN-gLdqBPuCSRZ1HDm3KLdDO2c_D8Rm61xACq-S19nckxqLnb1f0pwWelkioYBlbr9x4EewtX68PjkKhiwyCnWwdmy2CF5S91wcmQsIkjWynHsiHSXny8bNNFnA24w=w907-h680-no&#39;);
-  text-align: center;
-  color: white;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center top;
+    background-image: url('https://yogiekurniawan.github.io/Webb/Potrait-2.JPG');
+    text-align: center;
+    color: white;
 }
+
+
+@media (min-width: 768px) {
+  .title_front {
+        font-weight: 800;
+        font-size: 24px;
+        color: #d44646;
+        padding: 0 0 30px 0;
+    }
+    .title {
+        font-size: 120px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .title_date {
+        color: #d44646;
+        font-weight: 800;
+        font-size: 25px;
+        padding: 0px 0 0px 0;
+    }
+    .title_under {
+        font-weight: 800;
+        font-size: 24px;
+        padding: 30px 0 0 0;
+    }
+    header {
+	    position: relative;
+	    width: 100%;
+	    min-height: 100%;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	    background-position: center top;
+	    background-image: url('https://yogiekurniawan.github.io/Webb/Landscape-4.JPG');
+	    text-align: center;
+	    color: white;
+	}
+
+}
+
 header .header-content {
-  position: relative;
-  text-align: center;
-  padding: 100px 15px 100px;
-  width: 100%;
+    position: relative;
+    text-align: center;
+    /* padding: 100px 15px 100px; */
+    padding: 170px 15px 30px;
+    width: 100%;
 }
+
+/*
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
 }
+*/
+
+/* Update */
+header .header-content .header-content-inner h1.judul {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Clicker Script', cursive;
+}
+
 header .header-content .header-content-inner hr {
-  margin: 30px auto;
+    margin: 30px auto;
 }
+
 header .header-content .header-content-inner p {
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
-  margin-bottom: 50px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-bottom: 50px;
 }
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -249,14 +389,19 @@ header .header-content .header-content-inner p {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    padding: 0 50px;
+    /* padding: 0 50px; */
   }
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
-  header .header-content .header-content-inner h1 {
+
+  /*
+  header .header-content .header-content-inner h1, 
+  */
+
+  header .header-content .header-content-inner h1.judul {
     font-size: 50px;
   }
   header .header-content .header-content-inner p {
@@ -266,6 +411,7 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
+
 .section-heading {
   margin-top: 0;
 }
@@ -281,6 +427,7 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
+
 .portfolio-box {
   position: relative;
   display: block;
@@ -310,13 +457,15 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: Open Sans, Helvetica Neue, Arial, sans-serif;
+  font-family: &#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif;
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
 }
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
@@ -326,6 +475,7 @@ header .header-content .header-content-inner p {
 .portfolio-box:focus {
   outline: none;
 }
+
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
@@ -334,16 +484,22 @@ header .header-content .header-content-inner p {
     font-size: 22px;
   }
 }
+*/
+
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
+
 .text-primary {
-  color: #F05F40;
+  color: #d44646;
 }
-.no-gutter &gt; [class*=&#39;col-&#39;] {
+
+
+.no-gutter > [class*=&#39;col-&#39;] {
   padding-right: 0;
   padding-left: 0;
 }
+
 .btn-default {
   color: #222222;
   background-color: white;
@@ -357,14 +513,14 @@ header .header-content .header-content-inner p {
 .btn-default.focus,
 .btn-default:active,
 .btn-default.active,
-.open &gt; .dropdown-toggle.btn-default {
+.open > .dropdown-toggle.btn-default {
   color: #222222;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
 .btn-default:active,
 .btn-default.active,
-.open &gt; .dropdown-toggle.btn-default {
+.open > .dropdown-toggle.btn-default {
   background-image: none;
 }
 .btn-default.disabled,
@@ -394,8 +550,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #d44646;
+  border-color: #d44646;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -405,14 +561,14 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active,
-.open &gt; .dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
   color: white;
   background-color: #ee4b28;
   border-color: #ed431f;
 }
 .btn-primary:active,
 .btn-primary.active,
-.open &gt; .dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
   background-image: none;
 }
 .btn-primary.disabled,
@@ -433,11 +589,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #d44646;
+  border-color: #d44646;
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: #d44646;
   background-color: white;
 }
 .btn {
@@ -445,10 +601,12 @@ fieldset[disabled] .btn-primary.active {
   border: none;
   border-radius: 300px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .btn-xl {
   padding: 15px 30px;
 }
+
 ::-moz-selection {
   color: white;
   text-shadow: none;
@@ -459,6 +617,7 @@ fieldset[disabled] .btn-primary.active {
   text-shadow: none;
   background: #222222;
 }
+
 img::selection {
   color: white;
   background: transparent;
@@ -467,51 +626,25 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
+
 body {
   webkit-tap-highlight-color: #222222;
 }
 
-.title_front {
-    color: #FFFFFF;
-    padding: 0 0 30px 0;
+.container.maps {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
-.title {
-    font-size: 50px;
-    color: #FFFFFF;
-    text-align: center;
+.col-lg-12.maps {
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 100%;
 }
 
-.title {
-    font-family: &#39;Clicker Script&#39;, cursive;
-}
 
-reset.css:6
-h
-
-.title_date {
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 14px;
-    padding: 0px 0 10px 0;
-}
-
-span.swirl_left {
-    display: inline-block;
-    background: url(http://themes.sindevo.com/wedding-bells/images/swirl_left.png) no-repeat left bottom;
-    padding: 0 0 0 100px;
-}
-
-span.swirl_right {
-    display: inline-block;
-    background: url(http://themes.sindevo.com/wedding-bells/images/swirl_right.png) no-repeat right bottom;
-    padding: 20px 100px 50px 0px;
-}
-
-.title_under {
-    padding: 30px 0 0 0;
-}
-</style>
+	</style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -519,216 +652,147 @@ span.swirl_right {
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body id='page-top'>
-    
-    <!--  S:Supaya Aya  -->
-    <b:section id='section'/>
-    <!--  E:Supaya Aya  -->
-
     <nav class='navbar navbar-default navbar-fixed-top' id='mainNav'>
         <div class='container-fluid'>
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class='navbar-header'>
                 <button class='navbar-toggle collapsed' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
-                    <span class='sr-only'>Toggle navigation</span> Menu <i class='fa fa-bars'/>
+                    <span class='sr-only'>Toggle navigation</span><i class='fa fa-bars'/>
                 </button>
-                <a class='navbar-brand page-scroll' href='#page-top'>Yayu <span>&amp;</span> Yogie</a>
+                <a class='navbar-brand page-scroll' href='#page-top'>Yayu &amp; Yogie</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
                 <ul class='nav navbar-nav navbar-right'>
-                    <li>
-                        <a class='page-scroll' href='#about'>About</a>
+                	<li>
+                        <a class='page-scroll' href='#rumah'>Rumah</a>
                     </li>
                     <li>
-                        <a class='page-scroll' href='#services'>Services</a>
+                        <a class='page-scroll' href='#sambutan'>Sambutan</a>
                     </li>
                     <li>
-                        <a class='page-scroll' href='#portfolio'>Portfolio</a>
+                        <a class='page-scroll' href='#acara'>Acara</a>
                     </li>
                     <li>
-                        <a class='page-scroll' href='#contact'>Contact</a>
+                        <a class='page-scroll' href='#galeri'>Galeri</a>
+                    </li>
+                    <li>
+                        <a class='page-scroll' href='#lokasi'>lokasi</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
-
-    <header>
+    <header id='rumah'>
         <div class='header-content'>
             <div class='header-content-inner'>
-<!---->
                 <div class='title_container'>
-     
-         <div class='title_front' style='display: block;'><span class='char1' style='display: inline-block; transition: none; transform: translateX(0px) translateY(26px) rotate(-26deg);'>W</span><span class='char2' style='display: inline-block; transition: none; transform: translateX(-1px) translateY(20px) rotate(-23deg);'>E</span>  <span class='char3 empty' style='display: inline-block; transition: none; transform: translateX(-1px) translateY(17px) rotate(-21deg);'/><span class='char4' style='display: inline-block; transition: none; transform: translateX(-1px) translateY(14px) rotate(-19deg);'>A</span><span class='char5' style='display: inline-block; transition: none; transform: translateX(-2px) translateY(10px) rotate(-16deg);'>R</span><span class='char6' style='display: inline-block; transition: none; transform: translateX(-1px) translateY(7px) rotate(-13deg);'>E  </span><span class='char7 empty' style='display: inline-block; transition: none; transform: translateX(-1px) translateY(5px) rotate(-11deg);'>  </span><span class='char8' style='display: inline-block; transition: none; transform: translateX(-1px) translateY(3px) rotate(-9deg);'>G</span><span class='char9' style='display: inline-block; transition: none; transform: translateX(-1px) translateY(1px) rotate(-6deg);'>E</span><span class='char10' style='display: inline-block; transition: none; transform: translateX(0px) translateY(0px) rotate(-4deg);'>T</span><span class='char11' style='display: inline-block; transition: none; transform: translateX(0px) translateY(0px) rotate(-2deg);'>T</span><span class='char12' style='display: inline-block; transition: none; transform: translateX(0px) translateY(0px) rotate(0deg);'>I</span><span class='char13' style='display: inline-block; transition: none; transform: translateX(0px) translateY(0px) rotate(2deg);'>N</span><span class='char14' style='display: inline-block; transition: none; transform: translateX(1px) translateY(1px) rotate(5deg);'>G</span>  <span class='char15 empty' style='display: inline-block; transition: none; transform: translateX(1px) translateY(2px) rotate(8deg);'/><span class='char16' style='display: inline-block; transition: none; transform: translateX(1px) translateY(4px) rotate(10deg);'>M</span><span class='char17' style='display: inline-block; transition: none; transform: translateX(1px) translateY(8px) rotate(14deg);'>A</span><span class='char18' style='display: inline-block; transition: none; transform: translateX(2px) translateY(11px) rotate(17deg);'>R</span><span class='char19' style='display: inline-block; transition: none; transform: translateX(1px) translateY(15px) rotate(20deg);'>R</span><span class='char20' style='display: inline-block; transition: none; transform: translateX(1px) translateY(19px) rotate(22deg);'>I</span><span class='char21' style='display: inline-block; transition: none; transform: translateX(1px) translateY(22px) rotate(24deg);'>E</span><span class='char22' style='display: inline-block; transition: none; transform: translateX(0px) translateY(27px) rotate(27deg);'>D</span></div>
-                  <div class='love_birds'><img alt='' src='http://themes.sindevo.com/wedding-bells/images/birds_icon.png' title=''/></div>
-         <div class='title'>Yayu <span>&amp;</span> Yogie</div>
-         <div class='title_date'><span class='swirl_left'><span class='swirl_right'>5 April 2017</span></span></div>
-         <div class='title_under' style='display: block;'><span class='char1' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-11px) rotate(20deg);'>S</span><span class='char2' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-7px) rotate(16deg);'>A</span><span class='char3' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-4px) rotate(12deg);'>V</span><span class='char4' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-2px) rotate(8deg);'>E</span>  <span class='char5 empty' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-1px) rotate(6deg);'/><span class='char6' style='display: inline-block; transition: none; transform: translateX(0px) translateY(0px) rotate(4deg);'>T</span><span class='char7' style='display: inline-block; transition: none; transform: translateX(0px) translateY(0px) rotate(0deg);'>H</span><span class='char8' style='display: inline-block; transition: none; transform: translateX(0px) translateY(0px) rotate(-3deg);'>E</span>  <span class='char9 empty' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-1px) rotate(-6deg);'/><span class='char10' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-2px) rotate(-9deg);'>D</span><span class='char11' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-5px) rotate(-13deg);'>A</span><span class='char12' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-8px) rotate(-17deg);'>T</span><span class='char13' style='display: inline-block; transition: none; transform: translateX(0px) translateY(-11px) rotate(-20deg);'>E</span></div>
-         
-    </div>
-<!---->
+                    <div class='title_front' style='display: block;'>
+                    	<h1 class='judul'>We Are Getting Married</h1>
+                    </div>
+                    <div class='love_birds'><img alt='Birds' src='https://yogiekurniawan.github.io/Webb/birds_icon.png' title=''/>
+                    </div>
+                    <div class='title'>Yayu <span class='and'>&amp;</span> Yogie</div>
+                    <div class='title_date'>
+                        <span class='swirl_left'>
+                    		<span class='swirl_right'>05.04.2017</span>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-
-    <section class='bg-primary' id='about'>
+    <section class='bg-primary' id='sambutan'>
         <div class='container'>
             <div class='row'>
                 <div class='col-lg-8 col-lg-offset-2 text-center'>
-                    <h2 class='section-heading'>We&#39;ve got what you need!</h2>
-                    <hr class='light'/>
-                    <p class='text-faded'>Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <!--
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sid!2sid!4v1487935073941!6m8!1m7!1sKN6Ame_ytj-Tii3beY8BHw!2m2!1d-7.108522723832836!2d107.7033501792302!3f82.22860514370657!4f-16.939175163890326!5f0.7820865974627469" width="90%" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                    -->
-                    <iframe allowfullscreen='' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m0!3m2!1sid!2s!4v1487939152104!6m8!1m7!1sKN6Ame_ytj-Tii3beY8BHw!2m2!1d-7.108522723832836!2d107.7033501792302!3f105.84830147703535!4f-4.040323953578294!5f0.7820865974627469' style='border:0' width='100%'/>
-
-                    <a class='page-scroll btn btn-default btn-xl sr-button' href='https://goo.gl/maps/zGUMnbWJtA12'> Navigasi Ke Lokasi</a>
-<a href='https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MW1yamxrM25ja2JmbW45ZjY4azk3MmFvZ3MgeW9naWUuam1AbQ&amp;tmsrc=yogie.jm%40gmail.com' target='_blank'><img border='0' src='https://www.google.com/calendar/images/ext/gc_button1_id.gif'/></a>
-                    
+                    <p class='text-faded'>Bissmillahirrahmaanirrahiim</p>
+                    <p class='text-faded'>Assalamu&#39;alaikum warahmatullahi wabarakatuh</p>
+                    <p class='text-faded'>Dengan penuh rasa syukur serta memohon Rahmat dan Ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan yang Insya Allah akan dilaksanakan pada :</p> 
                 </div>
             </div>
         </div>
     </section>
-
-    <section id='services'>
+    <section id='acara'>
         <div class='container'>
             <div class='row'>
                 <div class='col-lg-12 text-center'>
-                    <h2 class='section-heading'>At Your Service</h2>
-                    <hr class='primary'/>
+                <!--
+                    <h2 class="section-heading">Acara</h2>
+                    <hr class="primary"></hr>
+                -->
                 </div>
             </div>
         </div>
         <div class='container'>
             <div class='row'>
-                <div class='col-lg-3 col-md-6 text-center'>
+                <div class='col-lg-6 col-md-6 text-center'>
                     <div class='service-box'>
                         <i class='fa fa-4x fa-diamond text-primary sr-icons'/>
-                        <h3>Sturdy Templates</h3>
-                        <p class='text-muted'>Our templates are updated regularly so they don&#39;t break.</p>
+                        <h3 class='list-event'>Akad</h3>
+                        <p class='text-muted'>Rabu, 5 April 2017</p>
+                        <p class='text-muted'>Pukul : 09.00 WIB</p>
+                        <p class='text-muted'>Bertempat di Kp.Cikujang 05/04</p>
+                        <p class='text-muted'>Jl.Raya Pacet No.119 Maruyung - Pacet</p>
                     </div>
                 </div>
-                <div class='col-lg-3 col-md-6 text-center'>
-                    <div class='service-box'>
-                        <i class='fa fa-4x fa-paper-plane text-primary sr-icons'/>
-                        <h3>Ready to Ship</h3>
-                        <p class='text-muted'>You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class='col-lg-3 col-md-6 text-center'>
-                    <div class='service-box'>
-                        <i class='fa fa-4x fa-newspaper-o text-primary sr-icons'/>
-                        <h3>Up to Date</h3>
-                        <p class='text-muted'>We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class='col-lg-3 col-md-6 text-center'>
+                <div class='col-lg-6 col-md-6 text-center'>
                     <div class='service-box'>
                         <i class='fa fa-4x fa-heart text-primary sr-icons'/>
-                        <h3>Made with Love</h3>
-                        <p class='text-muted'>You have to make your websites with love these days!</p>
+                        <h3 class='list-event'>Resepsi</h3>
+                        <p class='text-muted'>Rabu, 5 April 2017</p>
+                        <p class='text-muted'>Pukul : 11.00 - Selesai WIB</p>
+                        <p class='text-muted'>Bertempat di Kp.Cikujang 05/04</p>
+                        <p class='text-muted'>Jl.Raya Pacet No.119 Maruyung - Pacet</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class='no-padding' id='portfolio'>
+    <section class='no-padding' id='galeri'>
         <div class='container-fluid'>
             <div class='row no-gutter popup-gallery'>
                 <div class='col-lg-4 col-sm-6'>
-                    <a class='portfolio-box' href='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/1.jpg'>
-                        <img alt='' class='img-responsive' src='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/1.jpg'/>
+                    <a class='portfolio-box' href='https://yogiekurniawan.github.io/Webb/Landscape-2.JPG'>
+                        <img alt='' class='img-responsive' src='https://yogiekurniawan.github.io/Webb/Landscape-2.JPG'/>
                         <div class='portfolio-box-caption'>
                             <div class='portfolio-box-caption-content'>
                                 <div class='project-category text-faded'>
-                                    Category
+                                    Prewedding
                                 </div>
                                 <div class='project-name'>
-                                    Project Name
+                                    1
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class='col-lg-4 col-sm-6'>
-                    <a class='portfolio-box' href='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/2.jpg'>
-                        <img alt='' class='img-responsive' src='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/2.jpg'/>
+                    <a class='portfolio-box' href='https://yogiekurniawan.github.io/Webb/Landscape-3.JPG'>
+                        <img alt='' class='img-responsive' src='https://yogiekurniawan.github.io/Webb/Landscape-3.JPG'/>
                         <div class='portfolio-box-caption'>
                             <div class='portfolio-box-caption-content'>
                                 <div class='project-category text-faded'>
-                                    Category
+                                    Prewedding
                                 </div>
                                 <div class='project-name'>
-                                    Project Name
+                                    2
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class='col-lg-4 col-sm-6'>
-                    <a class='portfolio-box' href='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/3.jpg'>
-                        <img alt='' class='img-responsive' src='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/3.jpg'/>
+                    <a class='portfolio-box' href='https://yogiekurniawan.github.io/Webb/Landscape-4.JPG'>
+                        <img alt='' class='img-responsive' src='https://yogiekurniawan.github.io/Webb/Landscape-4.JPG'/>
                         <div class='portfolio-box-caption'>
                             <div class='portfolio-box-caption-content'>
                                 <div class='project-category text-faded'>
-                                    Category
+                                    Prewedding
                                 </div>
                                 <div class='project-name'>
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class='col-lg-4 col-sm-6'>
-                    <a class='portfolio-box' href='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/4.jpg'>
-                        <img alt='' class='img-responsive' src='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/4.jpg'/>
-                        <div class='portfolio-box-caption'>
-                            <div class='portfolio-box-caption-content'>
-                                <div class='project-category text-faded'>
-                                    Category
-                                </div>
-                                <div class='project-name'>
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class='col-lg-4 col-sm-6'>
-                    <a class='portfolio-box' href='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/5.jpg'>
-                        <img alt='' class='img-responsive' src='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/5.jpg'/>
-                        <div class='portfolio-box-caption'>
-                            <div class='portfolio-box-caption-content'>
-                                <div class='project-category text-faded'>
-                                    Category
-                                </div>
-                                <div class='project-name'>
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class='col-lg-4 col-sm-6'>
-                    <a class='portfolio-box' href='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/6.jpg'>
-                        <img alt='' class='img-responsive' src='https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/6.jpg'/>
-                        <div class='portfolio-box-caption'>
-                            <div class='portfolio-box-caption-content'>
-                                <div class='project-category text-faded'>
-                                    Category
-                                </div>
-                                <div class='project-name'>
-                                    Project Name
+                                    3
                                 </div>
                             </div>
                         </div>
@@ -737,49 +801,25 @@ span.swirl_right {
             </div>
         </div>
     </section>
-
-    <aside class='bg-dark'>
-        <div class='container text-center'>
-            <div class='call-to-action'>
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a class='btn btn-default btn-xl sr-button' href='http://startbootstrap.com/template-overviews/creative/'>Download Now!</a>
-            </div>
-        </div>
-    </aside>
-
-    <section id='contact'>
-        <div class='container'>
-            <div class='row'>
-                <div class='col-lg-8 col-lg-offset-2 text-center'>
-                    <h2 class='section-heading'>Let&#39;s Get In Touch!</h2>
+    <section class='footer' id='lokasi'>
+        <div class='container maps'>
+                <div class='col-lg-12 text-center maps'>
+                    <h2 class='section-heading'>Lokasi</h2>
                     <hr class='primary'/>
-                    <p>Ready to start your next project with us? That&#39;s great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-                <div class='col-lg-4 col-lg-offset-2 text-center'>
-                    <i class='fa fa-phone fa-3x sr-contact'/>
-                    <p>123-456-6789</p>
-                </div>
-                <div class='col-lg-4 text-center'>
-                    <i class='fa fa-envelope-o fa-3x sr-contact'/>
-                    <p><a href='mailto:your-email@your-domain.com'>feedback@startbootstrap.com</a></p>
+                    <a class='btn btn-primary btn-xl page-scroll' href='https://goo.gl/maps/pWMMRkenykm' style='margin-bottom: 20px;'>Navigasi Ke Lokasi</a>
+                    <iframe allowfullscreen='' frameborder='0' height='450px' src='https://www.google.com/maps/embed?pb=!1m0!3m2!1sid!2s!4v1487939152104!6m8!1m7!1sKN6Ame_ytj-Tii3beY8BHw!2m2!1d-7.108522723832836!2d107.7033501792302!3f105.84830147703535!4f-4.040323953578294!5f0.7820865974627469' style='border:0' width='100%'/>
                 </div>
             </div>
-        </div>
     </section>
-
     <!-- jQuery : SOURCE GITHUB -->
-    <script src='https://blackrockdigital.github.io/startbootstrap-creative/vendor/jquery/jquery.min.js'/>
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'/>
     <!-- Bootstrap Core JavaScript : SOURCE GITHUB -->
-    <script src='https://blackrockdigital.github.io/startbootstrap-creative/vendor/bootstrap/js/bootstrap.min.js'/>
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'/>
     <!-- Plugin JavaScript -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'/>
-
     <!-- SOURCE GITHUB -->
-    <script src='https://blackrockdigital.github.io/startbootstrap-creative/vendor/scrollreveal/scrollreveal.min.js'/>
-    <script src='https://blackrockdigital.github.io/startbootstrap-creative/vendor/magnific-popup/jquery.magnific-popup.min.js'/>
-
+    <script src='https://unpkg.com/scrollreveal/dist/scrollreveal.min.js'/>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'/>
     <!-- Theme JavaScript -->
     <script src='https://blackrockdigital.github.io/startbootstrap-creative/js/creative.min.js'/>
 
